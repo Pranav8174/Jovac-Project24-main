@@ -1,0 +1,8 @@
+#userimage{
+    border-radius: 50%;
+    object-fit: cover;
+}
+#userprofile{
+     margin: 5px;
+     padding: 5px;
+}
