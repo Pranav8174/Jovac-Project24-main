@@ -15,7 +15,7 @@ const app = express();
 app.use(cors()); // Enable CORS
 app.use(bodyParser.json()); // Middleware to parse JSON data
 const MONGO_URL = process.env.MONGO_CONNECTION_STRING;
-
+console.log('MongoDB Connection String:', MONGO_URL); // Debugging log
 // Connect to MongoDB using Mongoose
 mongoose.connect(MONGO_URL, {
   useNewUrlParser: true,
